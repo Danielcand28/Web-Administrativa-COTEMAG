@@ -44,12 +44,26 @@ header .toolbar .toolbarTop p{
 header .toolbarTopLeft{
     display: flex;
     gap: 20px;
+    text-shadow: 1px 1px 1px black;
 }
 
 header .toolbarTopRight{
     display: flex;
     gap: 20px;
+    
 }
+
+header .toolbarTopRight a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+header .toolbarTopRight p:hover{
+    color: blue;
+    transition: all .3s;
+}
+
 
 header .toolbar .toolbarBottom{
     width: 100%;
