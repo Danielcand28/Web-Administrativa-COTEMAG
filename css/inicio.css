@@ -56,11 +56,12 @@ header .toolbarTopRight{
 header .toolbarTopRight a{
     text-decoration: none;
     color: white;
+    font-size: 19px;
     text-shadow: 1px 1px 1px black;
 }
 
 header .toolbarTopRight p:hover{
-    color: blue;
+    color: #03476b;
     transition: all .3s;
 }
 
