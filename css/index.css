@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 40px 30px 60px;
+    padding: 30px 40px 30px 40px;
 }
 
 
@@ -62,7 +62,7 @@
 .hero .contenedorFormulario .seccionDerechaFormulario{
     width: 50%;
     height: 100%;
-    background-image: url(/background.jpg);
+    background-image: url(/assets/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +92,14 @@
 
 .seccionRegistro{
     display: none;
+    transition: all 1s;
+    transform: translateY(100px);
+}
+
+.user{
+    width: 100px;
+    height: 100px;
+    
 }
 /*PROPIEDADES DE LOS INPUTS*/
 
