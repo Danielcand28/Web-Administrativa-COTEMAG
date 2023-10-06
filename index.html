@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+    <main class="hero">
+
+        <h1>CORPORACION TECNICA DEL MAGDALENA</h1>
+        
+        <div class="contenedorFormulario">
+            <div class="seccionIzquierdaFormulario">
+
+                <img src="/assets/user.png" alt="" class="user">
+
+                <form id="formulario" class="form">
+
+                    <label for="numero">Usuario:</label>
+                    <input type="text" id="numero" name="numero" class="usuario" placeholder="youremail@email.com"><br><br>
+
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" class="contrasena" placeholder="************"><br><br>
+
+
+                    <div id="seccionRegistro" class="seccionRegistro animacionRegistro">
+                        <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido"><br><br>
+                    
+                    
+                    
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo"><br><br>
+                    
+                    </div>
+                    
+                    <div>
+
+                        <button type="button" id="loginBtn" onclick="mostrarOpciones('logiin')">LOGIN</button>
+                    <button type="button" id="registroBtn" onclick="mostrarOpciones('registro')">SIGN UP</button>
+                    </div>
+                    
+                </form>
+                
+
+            </div>
+            <div class="seccionDerechaFormulario">
+             <img src="/assets/LogoCotemag.png" alt="">
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="/js/login.js"></script>
+</body>
+</html>
