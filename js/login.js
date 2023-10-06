@@ -15,6 +15,5 @@ function mostrarOpciones(valueFormulario) {
     } else if (valueFormulario === "registro") {
 
         seccionRegistro.classList.remove("seccionRegistro");
-        
     }
 }

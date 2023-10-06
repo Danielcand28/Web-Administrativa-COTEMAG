@@ -1,5 +1,5 @@
 let index = 0;
-const slides = document.querySelectorAll(".slider-content img");
+const slides = document.querySelectorAll(".slider-content div");
 const totalSlides = slides.length;
 const prevButton = document.getElementById("prev");
 const nextButton = document.getElementById("next");

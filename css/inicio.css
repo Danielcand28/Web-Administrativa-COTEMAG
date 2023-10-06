@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@600&family=Pacifico&family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    
-
-}
-
 :root{
     --margenesLaterales: 0px 80px 0px 80px;
+}
+
+.hero{
+    width: 100%;
+}
+
+.hero .slider{
+    width: 100%;
 }
 
 header .toolbar{
@@ -141,14 +139,23 @@ header .toolbar .toolbarBottom .listaNav{
 
 .slider-content {
     display: flex;
+    width: 100%;
     transition: all 0.5s;
+    background-position: center;
+    object-fit: cover;
+    
     
 }
 
-.slider-content img {
-    width: 100%;
-    height: 85vh;
-    object-fit: cover;
+.slider .slider-content .contenedorUno{
+    display: flex;
+    
+}
+
+.slider .slider-content img{
+    
+    height: 80vh;
+    
     background-repeat: no-repeat;
 }
 
