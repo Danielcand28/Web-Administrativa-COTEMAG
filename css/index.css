@@ -18,11 +18,12 @@
     flex-direction: column;
     background: linear-gradient(90deg, rgba(4,66,99,1) 0%, rgba(0,85,129,1) 17%, rgba(217,200,131,1) 100%);
     z-index: -1;
+    gap: 10px;
 }
 
 .hero h1{
-    padding-bottom: 80px;
     color: white;
+    padding-top: 40px;
     font-size: 40px;
 }
 
@@ -30,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     width: 65%;
-    height: 65%;
+    height: 100%;
     background-color: white;
     border-radius: 5px;
     margin-bottom: 80px;
@@ -63,7 +64,7 @@
 .hero .contenedorFormulario .seccionDerechaFormulario{
     width: 50%;
     height: 100%;
-    background-image: url(assets/background.jpg);
+    background-image: url(../assets/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +93,8 @@
 }
 
 .seccionRegistro{
+    height: 100%;
+    width: 100%;
     display: none;
     transition: all 1s;
     transform: translateY(100px);
@@ -130,6 +133,10 @@ padding-top: 25px;
 gap: 30px;
 }
 
+.cotemag-login{
+    display: none;
+}
+
 
 /* RESPONSIVE*/
 
@@ -147,9 +154,10 @@ gap: 30px;
     }
 
     .hero h1{
-        padding-bottom: 60px;
+       
         color: white;
         font-size: 30px;
+        text-align: center;
     }
 
     .hero .contenedorFormulario{
@@ -157,7 +165,7 @@ gap: 30px;
         
         justify-content: space-between;
         width: 65%;
-        height: 65%;
+        height: 100%;
         background-color: white;
         border-radius: 5px;
         margin-bottom: 80px;
@@ -172,7 +180,7 @@ gap: 30px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 10px 20px 10px 20px;
+        padding: 20px 30px 20px 30px;
     }
 
     .hero .contenedorFormulario .seccionDerechaFormulario{
@@ -182,8 +190,11 @@ gap: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        width: 100%;
 
     }
+
 
     .texto_usuario{
         font-size: 20px;
@@ -199,6 +210,45 @@ gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sec-r-contrasena a{
+    height: 100%;
+    padding: 0;
+}
+
+.usuario{
+    width: 100%;
+    border: none;
+    padding-top: 15px;
+    padding-right: 80px;
+    border-bottom: 2px solid black;
+}
+
+.contrasena{
+    width: 100%;
+    border: none;
+    padding-top: 15px;
+    padding-right: 80px;
+    border-bottom: 2px solid black;
+}
+
+.botones-Registro-Ingreso{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.cotemag-login{
+    display: flex;
+    width: 130px;
+    height: 130px;
+}
+
+.user{
+    display: none;
+    
 }
 
 }

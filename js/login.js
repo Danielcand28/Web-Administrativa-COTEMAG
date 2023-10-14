@@ -9,7 +9,7 @@ function mostrarOpciones(valueFormulario) {
 
     if (valueFormulario === "logiin") {
 
-        seccionRegistro.classList.add("seccionRegistro");   
+        seccionRegistro.classList.add("seccionRegistro");
         
         
     } else if (valueFormulario === "registro") {
